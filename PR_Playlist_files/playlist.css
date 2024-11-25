@@ -1,0 +1,117 @@
+body {
+  background-color: #acbbc2;
+  font-family: helvetica, arial, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  min-width: 380px;
+  text-shadow: 1px 1px 1px #a9a9a9;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+	color: white;
+	text-shadow: 1px 1px 2px #3b3b3b;
+}
+
+p {
+	font-size: 18;
+	color: white;
+	text-shadow: 1px 1px 2px #3b3b3b;
+	font-weight: 550;
+}
+
+#headerBar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: ##6bd5ff;
+  color: white;
+  border-bottom: 3px solid #6bd5ff;
+  overflow: hidden;
+  z-index: 10000;
+}
+
+#headerBar h1 {
+  color: ##6bd5ff;
+}
+
+#content {
+  margin: 80px 22px;
+}
+
+.alignRight {
+  text-align: left;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: left;
+}
+
+.smallWidth {
+  width: 120px;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+thead {
+	color: white;
+	text-shadow: 2px 2px 2px #3b3b3b;
+	font-weight: 650;	
+}
+
+th {
+  font-size: 1.1em;
+  padding: 0px 5px;
+}
+
+tbody td {
+  border-top: 2px solid #a17312;
+  padding: 0px 5px;
+  color: white;
+  text-shadow: 1px 1px 2px #3b3b3b;
+  font-weight: 550;
+}
+
+tbody tr {
+	background-color: #566a73;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #9ba4a8;
+}
+
+#searchBox {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8e/Feedbin-Icon-home-search.svg');
+  background-position: 7px 7px;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  width: 360px;
+  font-size: 16px;
+  padding: 6px 20px 6px 28px;
+  margin-bottom: 28px;
+  border: 1px solid #ddd;
+}
+
+#searchBox::-webkit-search-cancel-button{
+    position:relative;
+    right:-10px;
+}
+

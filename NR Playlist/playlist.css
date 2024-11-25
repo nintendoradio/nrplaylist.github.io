@@ -1,0 +1,47 @@
+body {
+  background-color: #ffb821;
+  font-family: helvetica, arial, sans-serif;
+  color: black;
+  margin: 0px;
+  min-width: 380px;
+}
+
+p, h2 {
+  text-align: center;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: none;
+  text-align: center;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8e/Feedbin-Icon-home-search.svg');
+  background-position: 7px 7px;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 360px;
+  font-size: 16px;
+  padding: 6px 20px 6px 28px;
+  margin-bottom: 28px;
+  margin-left: auto;
+  border: 1px solid #ddd;
+}
+
+.artistCell, .titleCell, .lengthCell {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
+
+table.dataTable tbody tr.odd {
+  background-color: #e8b343;
+}
+
+.artistCell, .titleCell {
+  padding-left: 10px !important;
+}
+
+.lengthCell {
+  text-align: center;
+}

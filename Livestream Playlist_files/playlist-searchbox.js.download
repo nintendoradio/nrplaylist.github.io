@@ -1,0 +1,21 @@
+function searchSongs() {
+  let hasFoundSomething = false;
+  let searchValue =  $("#searchBox").val().toLowerCase();
+  $("#playlistTableBody tr").each(function() {
+    let row = $(this);
+    if (row.text().toLowerCase().indexOf(searchValue) > -1) {
+      row.show();
+      hasFoundSomething = true;
+    } else {
+      row.hide();
+    }
+  });
+
+  if (hasFoundSomething) {
+    $("#playlistTable").show();
+    $("#noSearchResults").hide();
+  } else {
+    $("#playlistTable").hide();
+    $("#noSearchResults").show();
+  }
+}
