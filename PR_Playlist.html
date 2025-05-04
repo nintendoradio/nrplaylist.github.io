@@ -24,6 +24,27 @@
             <th class="alignCenter smallWidth">Song Length</th>
           </tr>
         </thead>
+        <body>
+    <div id="headerBar">
+      <a href="http://localhost:7001/"><h1>Foobar2000 Song Request API</h1></a>
+    </div>
+       
+    <div id="content">
+      <h2>Livestream Playlist</h2>
+    
+      <p>Here you can find all the songs that can be requested on the stream!</p>
+      <p>Total tracks: 1615</p>
+      <input type="search" id="searchBox" onsearch="searchSongs()" oninput="searchSongs()" placeholder="Search for songs..." title="Search for songs...">
+			<script src="./Livestream Playlist_files/playlist-searchbox.js.download"></script>
+      <table id="playlistTable">
+        <thead>
+          <tr>
+            <th class="alignCenter smallWidth">Queue Index</th>
+            <th class="alignRight">Artist</th>
+            <th class="alignLeft">Title</th>
+            <th class="alignCenter smallWidth">Length</th>
+          </tr>
+        </thead>
         <tbody id="playlistTableBody">
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
@@ -4894,13 +4915,6 @@
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
-              <td class="alignLeft">Chapter Complete</td>
-              <td class="alignCenter smallWidth">0:42</td>
-            </tr>
-                      <tr class="activeTableRow">
-              <td class="alignCenter smallWidth">
-                              </td>
-              <td class="alignRight">Pokémon Masters EX</td>
               <td class="alignLeft">Decisive Battle! (Cynthia)</td>
               <td class="alignCenter smallWidth">2:04</td>
             </tr>
@@ -4978,6 +4992,13 @@
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
+              <td class="alignLeft">Quest Cleared!</td>
+              <td class="alignCenter smallWidth">1:04</td>
+            </tr>
+                      <tr class="activeTableRow">
+              <td class="alignCenter smallWidth">
+                              </td>
+              <td class="alignRight">Pokémon Masters EX</td>
               <td class="alignLeft">Shenanigans</td>
               <td class="alignCenter smallWidth">2:38</td>
             </tr>
@@ -5034,8 +5055,8 @@
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
-              <td class="alignLeft">Trainers' Eyes Meet (Battle Villa Milestone)</td>
-              <td class="alignCenter smallWidth">0:35</td>
+              <td class="alignLeft">Trainers' Eyes Meet (Cheerful Trainer)</td>
+              <td class="alignCenter smallWidth">0:52</td>
             </tr>
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
@@ -5048,15 +5069,15 @@
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
-              <td class="alignLeft">Trainers' Eyes Meet (Punk Girl)</td>
-              <td class="alignCenter smallWidth">0:35</td>
+              <td class="alignLeft">Trainers' Eyes Meet (Rachel and Sawyer)</td>
+              <td class="alignCenter smallWidth">2:29</td>
             </tr>
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
-              <td class="alignLeft">Trainers' Eyes Meet (Rachel and Sawyer)</td>
-              <td class="alignCenter smallWidth">2:29</td>
+              <td class="alignLeft">Trainers' Eyes Meet (Serious Trainer)</td>
+              <td class="alignCenter smallWidth">0:50</td>
             </tr>
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
@@ -5069,15 +5090,15 @@
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
-              <td class="alignLeft">Victory! (Pokémon Masters League)</td>
-              <td class="alignCenter smallWidth">0:48</td>
+              <td class="alignLeft">Victory! (Arena)</td>
+              <td class="alignCenter smallWidth">1:11</td>
             </tr>
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
                               </td>
               <td class="alignRight">Pokémon Masters EX</td>
-              <td class="alignLeft">Victory! (Team Break)</td>
-              <td class="alignCenter smallWidth">0:45</td>
+              <td class="alignLeft">Victory! (Enemy)</td>
+              <td class="alignCenter smallWidth">1:08</td>
             </tr>
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
