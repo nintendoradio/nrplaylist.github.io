@@ -7,6 +7,23 @@
     <script src="./VGR_Playlist_files/jquery.min.js.download"></script>
     <link rel="stylesheet" type="text/css" href="./VGR_Playlist_files/playlist.css">
   </head>
+  <body>
+    <div id="content">
+      <h2>Video Game Radio Playlist</h2>
+    
+      <p>Here you can find all the songs that can be requested on the stream! If you want to request songs, please consider <a href="https://www.patreon.com/henrikomagnifico">becoming a Patron!</a> It really helps the stream out a ton and it also gives you some other nice perks. Thank you!</p>
+      <p>Total tracks: 11,438</p>
+      <input type="search" id="searchBox" onsearch="searchSongs()" oninput="searchSongs()" placeholder="Search for songs..." title="Search for songs...">
+			<script src="./PR_Playlist_files/playlist-searchbox.js.download"></script>
+      <table id="playlistTable">
+        <thead>
+          <tr>
+			<th></th>
+            <th class="alignRight">Game Name</th>
+            <th class="alignLeft">Song Title</th>
+            <th class="alignCenter smallWidth">Song Length</th>
+          </tr>
+        </thead>
   <tbody id="playlistTableBody">
                       <tr class="activeTableRow">
               <td class="alignCenter smallWidth">
